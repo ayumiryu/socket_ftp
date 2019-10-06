@@ -1,5 +1,5 @@
 # socket_ftp
-This is a ftp client of Python, using Passive mode.
+This is a ftp client of Python, using socket lib and Passive mode.
 
 • Operating system used: Windows 10
 • Programing language used: Python(2.7.16)
