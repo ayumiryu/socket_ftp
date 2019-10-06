@@ -1,7 +1,7 @@
 # socket_ftp
+This is a ftp client of Python, using Passive mode.
 
 • Operating system used: Windows 10
-
 • Programing language used: Python(2.7.16)
 
 ### Compiling instructions:
@@ -11,3 +11,12 @@
 >python socketc.py
 ```
 3. then please input the server name/IP address, and login
+4. Here is some command I create
+```
+ ls              | List the files in the current directory on the remote server.
+ cd              | Change the current directory to -remote-dir- on the remote server.
+ get remote-file | Download the file -remote-file- from the remote server to the local machine.
+ put             | local-file Upload the file -local-file- from the local machine to the remote server.
+ delete file     | Delete the file -remote-file- from the remote server.
+ quit            | Quit the FTP client
+ ```
